@@ -1,0 +1,16 @@
+{
+  "name": "mukesh-power-and-energy",
+  "version": "1.0.0",
+  "description": "Mukesh Power & Energy Fullstack Application",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node run.js",
+    "start": "node run.js",
+    "server": "node ./backend/src/server.js",
+    "client": "node ./frontend/node_modules/vite/bin/vite.js ./frontend",
+    "backend": "node ./backend/src/server.js",
+    "frontend": "node ./frontend/node_modules/vite/bin/vite.js ./frontend",
+    "build": "node ./frontend/node_modules/vite/bin/vite.js build ./frontend"
+  }
+}
